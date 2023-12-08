@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "patron-image-generator"
+version = "0.1.0"
+description = "Creates Image(s) for Each Patron on Each Teir"
+authors = ["James Miller <32822936+JMTNTBANG@users.noreply.github.com>"]
+license = "GPL-3.0"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-dotenv = "^1.0.0"
+Pillow = "^10.1.0"
+patreon = "^0.5.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
