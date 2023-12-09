@@ -1,0 +1,19 @@
+{
+  "tiers": [
+    "Tier 1",
+    "Tier 2",
+    "Tier 3",
+    "Tier 4"
+  ],
+  "font-sizes": {
+    "header1": 150,
+    "header2": 75,
+    "member-list": 55
+  },
+  "limit-per-column": 4,
+  "output-directory": "./output",
+  "loop": {
+    "enabled": false,
+    "wait-time": -1
+  }
+}
